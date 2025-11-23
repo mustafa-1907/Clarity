@@ -519,37 +519,37 @@
                     </p>
                 </article>
 
-                <ul class="nav justify-content-center border-bottom border-2 border-black border-opacity-10 nav-tabs bg-white "
+                <ul class="nav justify-content-between  justify-content-xl-center border-bottom border-2 border-black border-opacity-10 nav-tabs bg-white "
                     id="myTab" role="tablist">
-                    <li class="nav-item " role="presentation">
+                    <li class="nav-item col-6 col-lg-auto    " role="presentation">
                         <button class="nav-link fs-18 py-3 px-32 me-0 fw-semibold active" id="front-tab"
                             data-bs-toggle="tab" data-bs-target="#front-tab-pane" type="button" role="tab"
                             aria-controls="front-tab-pane" aria-selected="true">
                             <span class="me-1"><i class="fa-solid fa-code"></i></span>
                             frontend</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item col-6 col-lg-auto   " role="presentation">
                         <button class="nav-link fs-18 py-3 px-32 me-0 fw-semibold" id="back-tab" data-bs-toggle="tab"
                             data-bs-target="#back-tab-pane" type="button" role="tab" aria-controls="back-tab-pane"
                             aria-selected="false">
                             <span class="me-1"><i class="fa-solid fa-server"></i></span>
                             backend</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item col-6 col-lg-auto    " role="presentation">
                         <button class="nav-link fs-18 py-3 px-32 me-0 fw-semibold" id="mobile-tab" data-bs-toggle="tab"
                             data-bs-target="#mobile-tab-pane" type="button" role="tab" aria-controls="mobile-tab-pane"
                             aria-selected="false">
                             <span class="me-1"><i class="fa-solid fa-mobile"></i></span>
                             mobile</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item col-6 col-lg-auto    order-1 order-xl-0" role="presentation">
                         <button class="nav-link fs-18 py-3 px-32 me-0 fw-semibold" id="cloud-tab" data-bs-toggle="tab"
                             data-bs-target="#cloud-tab-pane" type="button" role="tab" aria-controls="cloud-tab-pane"
                             aria-selected="false">
                             <span class="me-1"><i class="fa-solid fa-cloud"></i></span>
                             cloud & devOps</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item col-6 col-lg-auto   " role="presentation">
                         <button class="nav-link fs-18 py-3 px-32  me-0 fw-semibold" id="database-tab"
                             data-bs-toggle="tab" data-bs-target="#database-tab-pane" type="button" role="tab"
                             aria-controls="database-tab-pane" aria-selected="false">
@@ -1706,7 +1706,7 @@
                         <p class="m-0 align-self-center text-capitalize">Let's Start Your Journey</p>
                     </div>
                     <h2 class=" my-3 text-center"><span class="dark-text d-block"> Ready to </span> Transform?</h2>
-                    <p class="m-0 col-12 col-xl-7 text-center">Take the first step towards digital excellence. Our
+                    <p class="lead  m-0 col-12 col-xl-7 text-center">Take the first step towards digital excellence. Our
                         experts
                         are ready to turn your vision into reality.
                     </p>
@@ -1716,8 +1716,8 @@
 
                     <div class="form col-12 col-xl-8 p-4 p-xl-5 bg-white ">
                         <form action="" method="post">
-                            <h3 class="dark-text fw-bol d text-capitalize">Get Your Free Consultation</h3>
-                            <p class="my-2 col-11">Fill out the form and we'll get back to you within 24 hours with a
+                            <h3 class="dark-text fw-bold pt-2 text-capitalize">Get Your Free Consultation</h3>
+                            <p class="my-3 fs-18 p1 col-11">Fill out the form and we'll get back to you within 24 hours with a
                                 personalized proposal.</p>
                             <div class="row row-cols-1 row-cols-lg-2">
                                 <div class="col">
@@ -1725,13 +1725,13 @@
                                     <input type="text" id="fname" name="fname" class="form-control" placeholder="John"
                                         aria-label="First name" required>
                                 </div>
-                                <div class="col">
+                                <div class="col ">
                                     <label class="form-label" for="lname">Last Name *</label>
                                     <input type="text" id="lname" name="lname" class="form-control" placeholder="Doe"
                                         aria-label="Last name" required>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row row-cols-1 row-cols-lg-2">
                                 <div class="col">
                                     <label for="email" class="form-label">Email Address *</label>
                                     <input type="text" id="email" name="email" class="form-control"
@@ -1768,8 +1768,8 @@
                                 </select>
                             </div>
                             <label for="budget" class="form-label">Project Budget Range</label>
-                            <div class="d-flex flex-wrap justify-content-start align-items-center py-3 gap-4">
-                                <label for="growth" class="budget-option">
+                            <div class="d-flex flex-column flex-md-row flex-wrap justify-content-start gap-3 align-items-start py-3">
+                                <label for="growth" class="col-auto budget-option">
                                     <input type="radio" value="growth" name="budget" id="growth">
                                     <div class="budget-content p-4 rounded-4">
                                         <h4 class="m-0 fs-5">$25k - $50K</h4>
@@ -1777,7 +1777,7 @@
                                         </p>
                                     </div>
                                 </label>
-                                <label for="scale" class="budget-option">
+                                <label for="scale" class="col-auto budget-option">
                                     <input type="radio" value="scale" name="budget" id="scale">
                                     <div class="budget-content p-4 rounded-4">
                                         <h4 class="m-0 fs-5">$50K - $100K</h4>
@@ -1785,7 +1785,7 @@
                                         </p>
                                     </div>
                                 </label>
-                                <label for="enterprise" class="budget-option">
+                                <label for="enterprise" class="col-auto budget-option">
                                     <input type="radio" value="enterprise" name="budget" id="enterprise">
                                     <div class="budget-content p-4 rounded-4">
                                         <h4 class="m-0 fs-5">$+100K</h4>
